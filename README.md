@@ -68,11 +68,11 @@ Tests cover:
 
 ```
 ├── src/
-│   └── ERC20Token.sol          # Main token contract
+│   └── token.sol          # Main token contract
 ├── test/
-│   └── ERC20Token.t.sol        # Comprehensive test suite
+│   └── MyToken.t.sol        # Comprehensive test suite
 ├── script/
-│   └── Deploy.s.sol            # Deployment script
+│   └── deploy.s.sol            # Deployment script
 ├── lib/
 │   └── forge-std/              # Foundry standard library
 ├── foundry.toml                # Foundry configuration
